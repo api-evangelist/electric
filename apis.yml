@@ -1,8 +1,14 @@
 aid: electric
 name: Electric
-description: 'Electric is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: cloud. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Electric (Electric AI) is an IT and security management platform for small and
+  medium-sized businesses, consolidating device management, application and SaaS management, security
+  posture monitoring with automatic remediation, and employee onboarding/offboarding into a single
+  platform that requires no in-house IT skills and syncs with HR systems. Founded in New York and
+  backed by Bessemer Venture Partners, Electric bundles partner tooling (JumpCloud MDM/SSO, Keeper,
+  ThreatDown, Harmony Email, Perimeter81 VPN, Drata) behind an AI-powered IT Hub, help desk, and
+  hardware procurement service. It is not a developer-API company: there is no public developer
+  portal, API reference, or SDKs at this time. This profile was surfaced as a Bessemer portfolio
+  company and enriched from Electric''s public web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/electric/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://electric.ai/wp-content/uploads/Metadata-Home-Page.jpg
 tags:
 - Company
 - Cloud
+- IT Management
+- IT Security
+- Device Management
+- MDM
+- SaaS Management
+- Endpoint Security
+- SMB
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.electric.ai/
+- type: Pricing
+  url: https://electric.ai/pricing
+- type: Blog
+  url: https://electric.ai/blog
+- type: BlogRSS
+  url: https://electric.ai/feed
+- type: Support
+  url: https://support.electric.ai
+- type: Login
+  url: https://my.electric.ai/
+- type: TermsOfService
+  url: https://electric.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://electric.ai/privacy-policy
+- type: StatusPage
+  url: https://status.electric.ai/
+- type: GitHubOrganization
+  url: https://github.com/electricai
+- type: DomainSecurity
+  url: security/electric-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

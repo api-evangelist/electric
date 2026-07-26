@@ -1,0 +1,21 @@
+{
+  "repo": "electric",
+  "feeds": [
+    {
+      "source": "https://electric.ai/pricing",
+      "feed_url": "https://electric.ai/pricing",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://electric.ai/blog",
+      "feed_url": "https://electric.ai/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
