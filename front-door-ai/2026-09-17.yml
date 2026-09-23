@@ -1,0 +1,26 @@
+# Front Door AI Index — electric — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: electric
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.electric.ai
+  final_host: electric.ai
+  ownership: own
+  owner: electric
+  shares_host_with:
+  - electricai
+  inherited_from: null
+  verdict: scored
+  score: 3
+  host_score: 3
+  density: 5.69
+  words: 527
+  tiers:
+    agentic: 0
+    core: 3
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 3
