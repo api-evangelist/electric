@@ -1,4 +1,39 @@
 edges:
+- partner_name: Gorgias (own)
+  partner: gorgias
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.gorgias.com/apps/electric-it-hub
+  mirror_of: gorgias/integrations/gorgias-integration-edges.yml
+  apps:
+  - Electric IT Hub
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+- partner_name: Paychex (own)
+  partner: paychex-developer
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.paychex.com/apps/586468/electric---streamline-hr-and-it-workflows
+  mirror_of: paychex-developer/integrations/paychex-developer-integration-edges.yml
+  apps:
+  - Electric - Streamline HR and IT Workflows
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: Hiring & Onboarding
+  badges:
+  - AI-Enabled
 - partner_name: Zoom (own)
   partner: zoom
   partner_match: mirror
@@ -21,4 +56,6 @@ method: searched
 source:
 - zoom/integrations/zoom-integration-edges.yml
 checked:
+- gorgias/integrations/gorgias-integration-edges.yml
+- paychex-developer/integrations/paychex-developer-integration-edges.yml
 - zoom/integrations/zoom-integration-edges.yml
